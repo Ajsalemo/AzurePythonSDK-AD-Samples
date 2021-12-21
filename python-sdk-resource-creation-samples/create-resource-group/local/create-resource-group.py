@@ -2,7 +2,6 @@ from azure.mgmt.resource import ResourceManagementClient
 from azure.identity import DefaultAzureCredential
 import os
 
-# Acquire a credential object using CLI-based authentication.
 # Reference - https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-authenticate-hosted-applications#how-to-use-defaultazurecredential-when-accessing-resources
 credential = DefaultAzureCredential()
 
