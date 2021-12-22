@@ -2,9 +2,7 @@ import msal
 import requests
 from dotenv import load_dotenv
 from flask import Flask, redirect, render_template, request, session, url_for
-# This section is needed for url_for("foo", _external=True) to automatically
-# generate http scheme when this sample is running on localhost,
-# and to generate https scheme when it is deployed behind reversed proxy.
+# This section is needed for url_for("foo", _external=True) to automatically generate http scheme when this sample is running on localhost, and to generate https scheme when it is deployed behind reversed proxy.
 # See also https://flask.palletsprojects.com/en/1.0.x/deploying/wsgi-standalone/#proxy-setups
 from werkzeug.middleware.proxy_fix import ProxyFix
 
@@ -28,8 +26,7 @@ def index():
 
 @app.route("/login")
 def login():
-    # Technically we could use empty list [] as scopes to do just sign in,
-    # here we choose to also collect end user consent upfront
+    # Technically we could use empty list [] as scopes to do just sign in, here we choose to also collect end user consent upfront
     session["flow"] = _build_auth_code_flow(scopes=app_config.SCOPE)
     return render_template("login.html", auth_url=session["flow"]["auth_uri"], version=msal.__version__)
 
@@ -44,8 +41,10 @@ def authorized():
             return render_template("auth_error.html", result=result)
         session["user"] = result.get("id_token_claims")
         _save_cache(cache)
-    except ValueError:  # Usually caused by CSRF
-        pass  # Simply ignore them
+    # Usually caused by CSRF
+    except ValueError: 
+        # Simply ignore them 
+        pass  
     return redirect(url_for("index"))
 
 @app.route("/logout")
@@ -101,7 +100,6 @@ def _get_token_from_cache(scope=None):
         _save_cache(cache)
         return result
 
-# Used in template
 app.jinja_env.globals.update(_build_auth_code_flow=_build_auth_code_flow)  
 
 if __name__ == "__main__":
