@@ -26,3 +26,5 @@ This sample is taken from [here](https://docs.microsoft.com/en-us/azure/active-d
   
 #### Running the sample
 - Make sure to replace the environment variables `CLIENT_SECRET`, `CLIENT_ID` and `REDIRECT_PATH` with the values taken above from Client ID, Client Secret and your Redirect UI in `app_config.py` using an .env file.
+- Create and activate your virtual environment and run `pip install -r requirements.txt`.
+- Run `flask run`.
