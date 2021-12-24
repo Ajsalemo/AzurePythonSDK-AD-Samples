@@ -1,5 +1,7 @@
 # Create a Storage Account
 
+This sample is taken from [Provision Azure Storage using the Azure libraries for Python](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-example-storage?tabs=cmd).
+
 This sample uses the Azure Python SDK with [`DefaultAzureCredential`](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-authenticate-hosted-applications) to create a Storage Account.
 
 ## Running the sample
