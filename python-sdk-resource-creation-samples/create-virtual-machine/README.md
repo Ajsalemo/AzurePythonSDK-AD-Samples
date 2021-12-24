@@ -1,5 +1,7 @@
 # Create a Virtual Machine
 
+This sample is taken from [Use the Azure libraries to provision a virtual machine](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-example-virtual-machines?tabs=cmd).
+
 This sample uses the Azure Python SDK with [`DefaultAzureCredential`](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-authenticate-hosted-applications) to create a Virtual Machine.
 
 ## Running the sample
