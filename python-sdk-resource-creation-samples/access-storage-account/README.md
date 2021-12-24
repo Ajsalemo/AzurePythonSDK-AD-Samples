@@ -1,5 +1,7 @@
 # Access a Storage Account and upload a file
 
+This sample is taken from [Access Azure Storage using the Azure libraries for Python](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-example-storage-use?tabs=cmd).
+
 This sample uses the Azure Python SDK with [`DefaultAzureCredential`](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-authenticate-hosted-applications) to access a Storage Account.
 
 ## Running the sample
