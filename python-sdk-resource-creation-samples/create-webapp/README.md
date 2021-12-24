@@ -1,5 +1,7 @@
 # Create a Web App
 
+This sample is taken from [Use the Azure libraries to provision and deploy a web app](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-example-web-app?tabs=cmd).
+
 This sample uses the Azure Python SDK with [`DefaultAzureCredential`](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-authenticate-hosted-applications) to create a Web App.
 
 ## Running the sample
