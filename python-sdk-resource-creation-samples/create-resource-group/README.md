@@ -1,5 +1,7 @@
 # Create a Resource Group
 
+This is sample is taken from [Use the Azure libraries to provision a resource group](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-example-resource-group).
+
 This sample uses the Azure Python SDK with [`DefaultAzureCredential`](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-authenticate-hosted-applications) to create a Resource Group.
 
 ## Running the sample
