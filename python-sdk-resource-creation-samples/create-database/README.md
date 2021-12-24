@@ -1,5 +1,7 @@
 # Create a Database
 
+This sample is taken from [Use the Azure libraries to provision a database](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-example-database?tabs=cmd).
+
 This sample uses the Azure Python SDK with [`DefaultAzureCredential`](https://docs.microsoft.com/en-us/azure/developer/python/azure-sdk-authenticate-hosted-applications) to create a Azure Database for MySQL (or others).
 
 ## Running the sample
