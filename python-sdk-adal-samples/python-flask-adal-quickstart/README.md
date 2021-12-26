@@ -1,5 +1,7 @@
 # python-flask-msal-quickstart
 
+> <b>NOTE</b>: [ADAL](https://github.com/AzureAD/azure-activedirectory-library-for-python) is no longer being updated. It is recommended that projects use [MSAL](https://github.com/AzureAD/microsoft-authentication-library-for-python/wiki/Why-use-MSAL-Python) instead.
+
 This sample is taken from [here](https://github.com/Azure-Samples/active-directory-python-webapp-graphapi/tree/6d73c5adf17a44e8c0c9e7ede515cf1e2315c128). This sample has been slimmed down from the one in link to focus on simple authentication usage. 
 
 ### Getting started
