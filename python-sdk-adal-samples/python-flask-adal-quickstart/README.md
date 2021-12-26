@@ -19,7 +19,7 @@ This sample is taken from [here](https://github.com/Azure-Samples/active-directo
     ![image](https://user-images.githubusercontent.com/31021304/147167675-b1bfb10b-805c-4d11-b2dd-bfbfe726bd92.png) <br>
     ![image](https://user-images.githubusercontent.com/31021304/147167742-e107c14c-8414-4856-b813-6cfbd0ab852f.png)
    - Set your Redirect UI to `http://localhost:5000/getAToken`, or your path of choosing. <br>
-    ![image](https://user-images.githubusercontent.com/31021304/147167843-81eeb860-3ac2-47e0-a48e-e641d26cfcfd.png)
+    ![image](https://user-images.githubusercontent.com/31021304/147420832-ed71e54d-9c25-4d03-bf69-e3f235310b91.png)
 #### Permissions
 - Go to the Azure Active Directory application that was created
 - Choose `API permissions` on the left sidenav <br>
