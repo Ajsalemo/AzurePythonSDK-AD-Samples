@@ -1,15 +1,15 @@
 # python-flask-msal-quickstart
 
-This sample is taken from [here](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v2-python-webapp). This sample has been slimmed down from the one in link to focus on simple authentication usage.
+This sample is taken from [here](https://docs.microsoft.com/en-us/azure/active-directory/develop/quickstart-v2-python-webapp). This sample has been slimmed down from the one in link to focus on simple authentication usage. This sample also implements [Token Caching](https://docs.microsoft.com/en-us/azure/active-directory/develop/msal-python-token-cache-serialization#token-cache-for-a-web-app-confidential-client-application).
 
 ### Getting started
  - You can use the above link to create a new Azure AD application or [register](https://portal.azure.com/#blade/Microsoft_AAD_RegisteredApps/applicationsListBlade/quickStartType/PythonQuickstartPage/sourceType/docs) a new one
 
 #### Using an existing Azure AD application
- - If using an existing Azure AD application you'll need the following credentials
+ - If using an existing or new Azure AD application you'll need the following credentials
    - Client (Application) ID
    - Client Secret
- - You'll need to configure a Redirect UI as well.
+ - You'll need to configure a Redirect URI as well.
    - Go to your Azure AD Application -> Authentication <br>
     ![image](https://user-images.githubusercontent.com/31021304/147167636-7581372e-fa68-4447-bbce-ed4defcad18f.png)
    - If needed, select 'Add a platform' -> select 'Web' <br>
@@ -25,6 +25,6 @@ This sample is taken from [here](https://docs.microsoft.com/en-us/azure/active-d
   ![image](https://user-images.githubusercontent.com/31021304/147167945-f742765d-fba5-409c-b840-38b1daed0e39.png)
   
 #### Running the sample
-- Make sure to replace the environment variables `CLIENT_SECRET`, `CLIENT_ID` and `REDIRECT_PATH` with the values taken above from Client ID, Client Secret and your Redirect UI in `app_config.py` using an .env file.
+- Make sure to replace the environment variables `CLIENT_SECRET`, `CLIENT_ID` and `REDIRECT_PATH` with the values taken above from Client ID, Client Secret and your Redirect URI in `app_config.py` using an .env file.
 - Create and activate your virtual environment and run `pip install -r requirements.txt`.
 - Run `flask run`.
