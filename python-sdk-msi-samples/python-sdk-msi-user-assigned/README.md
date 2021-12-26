@@ -8,7 +8,7 @@ This sample is generally taken from [here](https://github.com/Azure-Samples/reso
 
 ### Troubleshooting
 - If you have assigned a User-Assigned Identity but see a `StopIterator` exception, this most likely means the `next()` function has no subscriptions to iterate over. Review your permissions assigned to your User-Assigned Identity from your Virtual Machine.
-- By default the User-Assigned identity has no permisions which can be seen [here](https://github.com/Azure-Samples/compute-python-msi-vm#role-assignement-to-the-msi-credentials). If no Resource Groups are still printing, follow the documentation in the above [link](https://github.com/Azure-Samples/compute-python-msi-vm#role-assignement-to-the-msi-credentials) to set a Resource Group scope for the Identity.
+- By default Identities have no permisions which can be seen [here](https://github.com/Azure-Samples/compute-python-msi-vm#role-assignement-to-the-msi-credentials). If no Resource Groups are still printing, follow the documentation in the [link](https://docs.microsoft.com/en-us/azure/role-based-access-control/role-assignments-portal-managed-identity#system-assigned-managed-identity) to set a Resource Group scope for the Identity.
 
 
 
