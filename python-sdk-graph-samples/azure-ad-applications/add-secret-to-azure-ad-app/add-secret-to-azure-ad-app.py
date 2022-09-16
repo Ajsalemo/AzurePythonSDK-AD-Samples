@@ -11,7 +11,7 @@ client = GraphClient(credential=auth_credential)
 
 def add_secret_to_azure_ad_app():
     object_id = '00000000-0000-0000-0000-000000000000'
-    # Display name is the 'friendly name' of the secret being created on this Service Principal
+    # Display name is the 'friendly name' of the secret being created on this Azure AD application
     # https://docs.microsoft.com/en-us/graph/api/application-addpassword?view=graph-rest-1.0&tabs=http
     post_body = {
         'passwordCredential': {

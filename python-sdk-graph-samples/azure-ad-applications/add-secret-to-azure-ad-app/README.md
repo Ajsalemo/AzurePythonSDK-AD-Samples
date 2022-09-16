@@ -1,6 +1,6 @@
 # Add a secret (password) to an existing Azure AD Application
 
-This sample uses the Microsoft Graph Core Python Client Library (preview).
+This sample uses the [Microsoft Graph Core Python Client Library (preview)](https://github.com/microsoftgraph/msgraph-sdk-python-core).
 
 This example adds a secret (password) through this API's endpoint - [Add a Secret](https://docs.microsoft.com/en-us/graph/api/application-addpassword?view=graph-rest-1.0&tabs=http)
 
